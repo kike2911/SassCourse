@@ -7,20 +7,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/icon-font.css">
+    <!--<link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="css/icon-font.css">-->
 
-    <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-        crossorigin="" />
-
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-        crossorigin=""></script>
     <title>Natours | Exciting tours for adventurous people</title>
 
 </head>
+
 <body>
 
     <div class="navigation">
@@ -33,24 +29,24 @@
         <div class="navigation__background">&nbsp;</div>
 
         <nav class="navigation__nav">
-        <ul class="navigation__list">
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">About Natours</a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">Your Benefits</a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">Popular tours</a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">Some Stories</a>
-            </li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">Book now</a>
-            </li>
-        </ul>
-    </nav>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">About Natours</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Your Benefits</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Popular tours</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Some Stories</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#" class="navigation__link">Book now</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <header class="header">
@@ -94,9 +90,24 @@
 
                 <div class="col-1-of-2">
                     <div class="composition">
+
+                        <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                        sizes="(max-width: 66.25em) 20vw, (max-width: 600px) 30vw, 300px" alt="photo 1" class="composition__photo composition__photo--p1"
+                        src="img/nat-1-large.jpg">
+
+                        <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                        sizes="(max-width: 66.25em) 20vw, (max-width: 600px) 30vw, 300px" alt="photo 2" class="composition__photo composition__photo--p2"
+                        src="img/nat-2-large.jpg">
+
+                        <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                        sizes="(max-width: 66.25em) 20vw, (max-width: 600px) 30vw, 300px" alt="photo 3" class="composition__photo composition__photo--p3"
+                        src="img/nat-3-large.jpg">
+
+                        <!--
                         <img src="img/nat-1-large.jpg" alt="photo1" class="composition__photo composition__photo--p1">
                         <img src="img/nat-2-large.jpg" alt="photo2" class="composition__photo composition__photo--p2">
                         <img src="img/nat-3-large.jpg" alt="photo3" class="composition__photo composition__photo--p3">
+                        -->
                     </div>
                 </div>
             </div>
@@ -286,7 +297,15 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/nat-8.jpg" alt="tour person" class="story__img">
+
+
+                        <!--<img src="img/nat-8.jpg" alt="tour person" class="story__img"> -->
+
+                        <img srcset="img/nat-8-small-1x.jpg 300w, img/nat-8.jpg 1000w"
+                        sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px" alt="tour person" class="story__img"
+                        src="img/nat-8.jpg">
+
+
                         <figcaption class="story__caption">Mary Smith</figcaption>
                     </figure>
                     <div class="story__text">
@@ -304,7 +323,11 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/nat-9.jpg" alt="tour person" class="story__img">
+
+                            <img srcset="img/nat-9-small-1x.jpg 300w, img/nat-9.jpg 1000w"
+                            sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px" alt="tour person" class="story__img"
+                            src="img/nat-9.jpg">
+
                         <figcaption class="story__caption">Jack Wilson</figcaption>
                     </figure>
                     <div class="story__text">
@@ -363,7 +386,6 @@
                                     <div class="form__group">
                                         <button class="btn btn--green">Next step &rarr;</button>
                                     </div>
-
                                 </div>
                         </form>
                     </div>
@@ -374,7 +396,13 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="full logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="full logo" src="img/logo-green-2x.png">
+            </picture>
+
+
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -384,7 +412,7 @@
                         <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
                         <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Our Terms</a></li>
                     </ul>
                 </div>
             </div>
@@ -408,9 +436,12 @@
             <div class="popup__right">
                 <a href="#section-tours" class="popup__close">&times;</a>
                 <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; please read these terms before booking</h3>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; please read these terms before
+                    booking</h3>
                 <p class="popup__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem magnam animi ipsa tempora quasi ea quod sint laudantium aspernatur, officiis, perspiciatis minus blanditiis architecto saepe laborum nulla itaque hic.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem magnam animi ipsa
+                    tempora quasi ea quod sint laudantium aspernatur, officiis, perspiciatis minus blanditiis
+                    architecto saepe laborum nulla itaque hic.
                 </p>
                 <a href="#" class="btn btn--green">Book now</a>
             </div>
@@ -492,6 +523,5 @@
 
 
 </body>
-<script src="map.js"></script>
 
 </html>
